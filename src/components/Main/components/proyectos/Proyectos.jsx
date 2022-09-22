@@ -6,7 +6,6 @@ export default function Proyectos() {
   const [url] = useState(`${process.env.REACT_APP_API_URL}/proyectos`);
   const estado = Fetching(url);
   const { cargando, data } = estado;
-  cargando ? console.log("cargando...") : console.log("Datos cargados correctamente!");
 
   return (
     <>
