@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       <form action={`${process.env.REACT_APP_API_URL}/send-email`} method="post">
-        <div className="card">
+        <div className="card position-static">
           <div className="row mb-3">
             <label className="col-sm-2 col-form-label">Nombre:</label>
             <div className="col-sm-10">

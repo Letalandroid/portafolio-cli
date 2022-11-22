@@ -2,6 +2,7 @@ form {
   display: flex;
   justify-content: center;
   font-size: 1.2em;
+  z-index: -100;
 }
 
 .submit {
