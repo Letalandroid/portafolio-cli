@@ -23,3 +23,7 @@
 .input-group {
     height: 50px;
 }
+
+form {
+    z-index: 0;
+}
