@@ -24,6 +24,9 @@
 }
 
 .proyect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 20em;
   border-radius: 10px;
   margin: 20px;
